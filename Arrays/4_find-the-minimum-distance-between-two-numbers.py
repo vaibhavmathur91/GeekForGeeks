@@ -19,6 +19,7 @@ Examples:
 def min_dist(arr, n, x, y):
     first = arr[0]
     res = float("inf")
+    start = 0
     for i in range(n):
         if arr[i] == x or arr[i] == y:
             first = arr[i]
@@ -58,4 +59,3 @@ array_len = len(array)
 left = 2
 right = 8
 print("Minimum distance between ", left, " and ", right, "is", min_dist(array, array_len, left, right))
-

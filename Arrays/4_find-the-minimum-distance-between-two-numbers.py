@@ -58,3 +58,4 @@ array_len = len(array)
 left = 2
 right = 8
 print("Minimum distance between ", left, " and ", right, "is", min_dist(array, array_len, left, right))
+
